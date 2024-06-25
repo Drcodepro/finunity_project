@@ -11,7 +11,17 @@ import useIntersectionObserver from "./InterSection_observer";
 
 export default function WhyToChoose(){
 
-const ref = useIntersectionObserver({
+const ref1 = useIntersectionObserver({
+    threshold: 0.1
+  });
+  const ref2 = useIntersectionObserver({
+    threshold: 0.1
+  });
+  const ref3 = useIntersectionObserver({
+    threshold: 0.1
+  });
+
+  const ref4 = useIntersectionObserver({
     threshold: 0.1
   });
 
@@ -21,7 +31,7 @@ const ref = useIntersectionObserver({
 
             <div className="whyChoose_box_container">  
 
-                <div ref={ref} className="WhyChooseBox hidden">
+                <div ref={ref1} className="WhyChooseBox hidden">
                     <div className="logo_container">
                         <img src={icon1} alt="logo" />
                     </div>
@@ -42,7 +52,7 @@ const ref = useIntersectionObserver({
 
 
 
-                <div ref={ref} className="WhyChooseBox hidden">
+                <div ref={ref2} className="WhyChooseBox hidden">
                     <div className="logo_container">
                         <img src={icon2} alt="logo" />
                     </div>
@@ -63,7 +73,7 @@ const ref = useIntersectionObserver({
                 </div>
 
 
-                <div ref={ref} className="WhyChooseBox hidden">
+                <div ref={ref3} className="WhyChooseBox hidden">
                     <div className="logo_container">
                         <img src={icon3} alt="logo" />
                     </div>
@@ -85,7 +95,7 @@ const ref = useIntersectionObserver({
                 </div>
 
 
-                <div ref={ref} className="WhyChooseBox hidden">
+                <div ref={ref4} className="WhyChooseBox hidden">
                     <div className="logo_container">
                         <img src={icon4} alt="logo" />
                     </div>
