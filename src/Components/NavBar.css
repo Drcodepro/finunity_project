@@ -1,0 +1,172 @@
+.nav_container{
+    position:relative;
+    top: 0;
+    left: 0;
+    padding:1rem 2rem;
+    box-sizing: border-box;
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background-color: black;
+    color: white;
+}
+
+.site_name_nav{
+    font-family: "Yatra One", system-ui;
+    font-weight: 400;
+    margin: 0;
+}
+
+.nav_navigation_container{
+    display: flex;
+    gap: 2rem;
+}
+
+
+.nav_navigation {
+    cursor: pointer; 
+    &:hover {
+        text-decoration: underline;
+    }
+}
+
+.nav_container img{
+    width:8rem;
+    height: auto;
+}
+
+.nav_container .buy_button button{
+    background: linear-gradient(90deg, #0055BA 1%, #3A94FF 60%);
+    color: white;
+    font-weight: 700;
+    font-size: 1rem;
+    border: none;
+    width: fit-content;
+    height: fit-content;
+    padding: 0.3rem;
+    padding-left: 1rem;
+    padding-right: 1rem;
+    border-radius:0.3rem;
+    text-align: center;
+    box-sizing: border-box;
+    display: block;
+    &:hover{
+        cursor: pointer;
+        transition: all ;
+        transition-duration: 0.2s;
+        transform: scale(1.05);
+        background: linear-gradient(90deg,#3A94FF 1%, #0055BA  60%);
+    }
+}
+
+.nav_container .toggle_nav_button{
+display: none;
+}
+
+
+/* tab responsive  */
+
+@media (max-width:980px) {
+    .nav_navigation_container{
+        gap: 1rem;
+        font-size: 0.8rem;
+    }
+
+    .nav_container .buy_button{
+        padding-left: 0.5rem;
+        padding-right: 0.5rem;
+        font-size: 0.8rem;
+    }
+}
+
+@media (max-width:800px) {
+    .nav_navigation_container{
+        gap: 1rem;
+        font-size: 0.6rem;
+    }
+}
+
+
+
+
+
+/* mobile responsive  */
+
+@media (max-width:690px) {
+    .site_name_nav{
+        font-size: 1.5rem;
+    }
+    .nav_container{
+        padding:0.5rem 2rem;
+    }
+    .nav_navigation {
+        width: 100%;
+        text-align: center;
+       
+    }
+    .nav_container .toggle_nav_button{
+        display: block;
+        
+    }
+
+  
+
+    .nav_container .buy_button{
+        display: none;
+    }
+
+    .navIsHidden{
+        display: none;
+        left:100%;
+    }
+    .nav_navigation_container{
+
+        position: absolute;
+        top:100%;
+        right:0%;
+        height: fit-content;
+        width:fit-content;
+        padding-left: 2rem;
+        padding-right:2rem;
+        flex-direction: column;
+        align-items: center;
+        gap: 0.3rem;
+        background-color: rgba(0, 0, 0, 0.816);
+        border: solid 1px rgb(255, 106, 0);
+        z-index: 99;
+    }  
+
+}
+
+@media (max-width:516px) {
+    .nav_container{
+        padding:0.3rem 2rem;
+    }
+
+    .nav_container img{
+        width:4rem;
+        height: auto;
+    }
+
+    .nav_container .buy_button{
+        padding-left: 0.3rem;
+        padding-right: 0.3rem;
+        padding-top: 0.1rem;
+        padding-bottom: 0.1rem;
+        font-size: 0.6rem;
+    }
+}
+
+
+@media (max-width:350px) {
+
+    .nav_container .buy_button{
+        font-size: 0.4rem;
+        font-weight: 600;
+        padding-left: 0.2rem;
+        padding-right: 0.2rem;
+        padding-top: 0.1rem;
+        padding-bottom: 0.1rem;
+    }
+}

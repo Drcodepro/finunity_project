@@ -1,0 +1,87 @@
+
+.box_container{
+    width:240px;
+    height: fit-content;
+    padding: 2rem;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    gap: 0.2rem;
+    background-color: rgba(0, 0, 0, 0.923);
+    color: white;
+    border-radius: 1rem;
+
+    box-shadow:4px 7px 5px 1px rgba(0, 0, 0, 0.701);
+}
+
+.box_container .imp_info_container{
+    width: 100%;
+    height: fit-content;
+    align-items: start;
+    border-bottom: solid 2px #00375F;
+    text-align: start;
+}
+
+
+.imp_info_container .PlaneName{
+    font-size: 0.9rem;
+    font-weight:500;
+}
+
+.imp_info_container .planeCost{
+    font-size: 2rem;
+    font-weight:900;
+    color: #0075FF;
+}
+
+.imp_info_container .planeReward{
+    font-size: 0.8rem;
+    font-weight:300;
+}
+
+
+.box_container .other_info_container{
+    text-align: start;
+    padding-left: 1rem;
+}
+.box_container .other_info_container ul{
+    list-style-type: style disc;
+    font-size: 0.9rem;
+    font-weight:500;
+    text-align: start;
+    width: fit-content;
+    padding-left: 0;
+}
+
+
+.invest_button_container{
+    width: 100%;
+}
+
+.invest_button_container button{
+    border: none;
+    padding:0.8rem 1rem;
+    width: 100%;
+    border-radius: 0.5rem;
+    cursor: pointer;
+    font-weight: 600;
+    background: linear-gradient(180deg, #00375F 0%, #3A94FF 100%);
+
+    &:hover{
+        background: linear-gradient(180deg,#3A94FF 0%,  #00375F 100%);
+    }
+}
+
+
+@media (max-width:745px) {
+    .box_container{
+        width:200px;
+    }
+}
+
+
+@media (max-width:625px) {
+    .box_container{
+        width:90%;
+    }
+}

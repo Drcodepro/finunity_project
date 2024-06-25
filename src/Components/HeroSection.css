@@ -1,0 +1,172 @@
+.herosection_container{
+    position: relative;
+    width: 100%;
+    height:fit-content;
+    display: flex;
+    justify-content:end;
+    align-items:end;
+    padding-left: 2rem;
+    padding-right: 2em;
+    box-sizing: border-box;
+    overflow: hidden;
+}
+
+
+.herosection_container .bluebg_container{
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    padding-left: 2rem;
+    padding-right: 2em;
+    box-sizing: border-box;
+    display: flex;
+    justify-content:start;
+    align-items:center;
+    overflow:hidden;
+    top: 0;
+    left: 0;
+    color: white;
+    background: linear-gradient(90deg, rgba(0,35,217,1) 0%, rgba(135, 155, 255, 0.205) 100%);
+
+}
+
+
+.herosection_container .herosection_info_container{
+    width: 600px;
+    height: fit-content;
+    z-index: 2;
+}
+
+/* .herosection_info_container .button_container{
+    width: fit-content;
+    justify-self: start;
+} */
+
+
+.herosection_info_container .button_container button{
+    padding: 0.5em 1rem;
+    box-sizing: border-box;
+    background-color: rgb(123, 0, 255);
+    font-size: 1rem;
+    font-weight: 700;
+    margin-top: 1rem;
+    border-radius:8px;
+    border: 1px solid rgb(184, 184, 184);
+    cursor: pointer;
+
+    &:hover{
+        background-color: rgb(78, 0, 162);   
+     }
+}
+
+
+.bluebg_container .herosection_info_container h1{
+    margin-bottom: 1rem;
+    font-size: 3.5rem;
+    font-weight: 900;
+
+}
+
+.herosection_container .herosection_poster{
+    width:370px;
+    height: auto;
+    justify-self: end;
+}
+
+.herosection_container .herosection_star{
+    position: absolute;
+    width: 15rem;
+    height: auto;
+    bottom: 70%;
+    left: 85%;
+    rotate: 10deg;
+    opacity: 0.7;
+}
+
+
+
+@media (max-width:1060px) {
+    .bluebg_container .herosection_info_container h1{
+        margin-bottom: 1rem;
+        font-size: 2.5rem;
+        font-weight: 900;
+    
+    }
+}
+
+
+@media (max-width:800px) {
+    .herosection_container .herosection_info_container{
+        width: 400px;
+        height: fit-content;
+    }
+    
+    .bluebg_container .herosection_info_container h1{
+        margin-bottom: 1rem;
+        font-size: 1.5rem;
+        font-weight: 900;
+    
+    }
+    .herosection_container .herosection_star{
+        position: absolute;
+        width: 15rem;
+        height: auto;
+        bottom: 70%;
+        left: 80%;
+        rotate: 10deg;
+    
+    }
+}
+
+
+
+@media (max-width:580px) {
+
+    .herosection_container{
+        justify-content:center;
+        padding-left: 1rem;
+        padding-right: 1em;
+    
+    }
+
+    .herosection_container .bluebg_container{
+        padding-left: 1rem;
+        padding-right: 1em;
+        justify-content:center;
+        align-items:start;
+    }
+
+    .herosection_container .herosection_info_container{
+        width:100%;
+        height: fit-content;
+        text-align: center;
+    }
+    
+    .bluebg_container .herosection_info_container p{
+        font-size:0.8rem;
+        font-weight: 500;
+    }
+
+    .herosection_info_container .button_container button{
+        padding: 0.5em 0.7rem;
+        font-size: 0.9rem;
+        font-weight: 700;
+        margin-top: 0.5rem;
+
+    }
+
+    .herosection_container .herosection_star{
+        position: absolute;
+        width: 15rem;
+        height: auto;
+        bottom: 50%;
+        left: 70%;
+        rotate: 10deg;
+    
+    }
+    .herosection_container .herosection_poster{
+        width:200px;
+        height: auto;
+        justify-self: end;
+    }
+}

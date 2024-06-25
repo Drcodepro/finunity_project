@@ -1,0 +1,5 @@
+.Home_container{
+    width: 100%;
+    background-image: url(../../../public/texture_bg.svg);
+    background-size: contain;
+}

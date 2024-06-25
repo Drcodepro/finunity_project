@@ -1,0 +1,171 @@
+
+.Home_footer_section{
+    display: flex;
+    height: fit-content;
+    flex-direction: column;
+    width: 100%;
+    box-sizing: border-box;
+    background-color: rgb(12, 12, 12);
+    padding-top: 1rem;
+    color: white;
+    padding-left: 2rem;
+    padding-right: 2rem;
+    padding-bottom: 0.5rem;
+    background-image: url(../assets/Image/Footer_bg.svg);
+    background-size: cover;
+}
+
+.Home_footer_section .footer_mainContent{
+    display: flex;
+    align-items: start;
+    justify-content:space-between;
+    gap: 5rem;
+    padding-bottom: 1rem;
+    width: 100%;
+}
+
+.Home_footer_section .Home_footer_info{
+    width:fit-content;
+    text-align: start;
+    width: 40%;
+}
+.Home_footer_section .Home_footer_info .footer_info{
+    font-size: 0.7rem;  
+    font-weight: 400;
+    color: rgb(163, 163, 163);
+    margin-top: 0;
+    text-align: start;
+    width:100%;
+}
+
+.Home_footer_section .Home_Footer_logo_container{
+    display: flex;
+    gap: 0.5rem;
+    align-items: center;
+        font-family: "Yatra One", system-ui;
+        font-weight: 400;
+}
+
+
+.Home_footer_section .Home_Footer_logo_container img{
+    width: 5rem;
+    height:auto;
+    margin-bottom: 1rem;
+}
+.Home_footer_section .Home_Footer_logo_container h1{
+    font-size: 1.3rem;
+    font-weight: 700;
+}
+
+
+.Home_footer_section h2{
+    font-size: 1rem;
+    background: linear-gradient(90deg, rgb(0, 72, 255) 1%, rgb(45, 122, 255) 60%);
+   background-size: contain;
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    margin-bottom:0.6rem;
+    width: fit-content;
+}
+
+
+.About_us p{
+    font-size: 0.7rem;  
+    font-weight: 400;
+    color: rgb(163, 163, 163);  
+    margin-bottom: 0.3rem;
+    padding-bottom: 0;
+    width: fit-content;
+    text-align: start;
+}
+
+.contact_us{
+    width:fit-content;
+    text-align: start;
+    display: flex;
+    flex-direction: column;
+    gap: 0.2rem;
+}
+
+ .contact_us p{
+    font-size: 0.7rem;  
+    font-weight: 400;
+    color: rgb(163, 163, 163);  
+    margin-bottom: 0.3rem;
+    padding-bottom: 0;
+    width:fit-content;
+    text-align: start;
+}
+
+
+.contact_us .social_media_icons{
+    display: flex;
+    gap: 0.5rem;
+}
+.contact_us .social_media_icons img{
+    width: 2rem;
+    height: auto;
+}
+
+
+.Home_footer_section .footer_rights{
+width: 100%;
+font-size: 0.8rem;  
+font-weight: 400;
+color: rgb(163, 163, 163);
+display: flex;
+justify-content:center;
+align-items:center;
+}
+
+.Home_footer_section .footer_rights p{
+    padding-left: 0.4rem;
+    padding-right: 0.4rem;
+    width: fit-content;
+}  
+
+.Home_footer_section hr{
+    width:100%;
+    border-color: rgba(0, 72, 255, 0.765);
+}
+
+
+
+@media (max-width: 516px){
+    .contact_us .social_media_icons{
+        gap: 0.3rem;
+    }
+    .Home_footer_section{
+        padding-left: 1rem;
+        padding-right: 1rem;
+    }
+
+    .Home_footer_section .footer_mainContent{
+        flex-direction: column;
+        padding-left:0;
+        padding-right:0;
+        gap: 1rem;
+    }
+
+    .other_info_contaner{
+        display: flex;
+        gap: 1rem;
+    }
+
+    .Home_footer_section .Home_footer_info{
+        width: 100%;
+        text-align: start;
+        box-sizing: border-box;
+    }
+
+    .Home_footer_section .Home_footer_info .footer_info{
+        width:100%;
+    }
+
+
+    .Home_footer_section .footer_rights{
+        font-size: 0.5rem;  
+        font-weight: 300;
+    }
+
+}
