@@ -12,6 +12,14 @@
     color: white;
 }
 
+.nav_container a{
+    &:active{
+        color: rgb(0, 38, 255);
+    }
+    text-decoration: none;
+    color: white;
+}
+
 .site_name_nav{
     font-family: "Yatra One", system-ui;
     font-weight: 400;

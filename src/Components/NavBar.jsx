@@ -10,19 +10,22 @@ export default function NavBar(){
 
 
     return(
-    <div className=" nav_container">
+    <div className=" nav_container" id="navBar">
         <h1 className="site_name_nav">Finunity</h1>
         <div  className={`${isvisible  ?  "none" :"navIsHidden "} nav_navigation_container`}>
            
-                <div className="nav_navigation flex" >BUY TOKENS</div>
+               <a href="#navBar"><div className="nav_navigation flex" >Home</div></a>
+
+               <a href="#aboutSection"><div className="nav_navigation flex" >About Us</div></a>
+
+                <div className="nav_navigation flex" >Buy Token</div>
                 
-                <div className="nav_navigation"  >CONTACT</div>
+                <a href="#footer"><div className="nav_navigation"  >Contact</div></a>
                 
-                <div className="nav_navigation" >FAQs</div>
             </div>
 
             <div className="buy_button"> 
-                <button>Buy Now</button>
+                <button>Sign In</button>
             </div>
 
             <div className= "toggle_nav_button" onClick={handleIsVisible}>

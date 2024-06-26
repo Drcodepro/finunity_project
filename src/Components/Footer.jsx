@@ -9,7 +9,7 @@ import linkedin_icon from '../assets/Icons/socialMedia_icon/linkedin_icon_blue.p
 
 export default function Footer() {
   return (
-    <div className="Home_footer_section">
+    <div className="Home_footer_section" id="footer">
       <div className="footer_mainContent">
 
         <div className="Home_footer_info">

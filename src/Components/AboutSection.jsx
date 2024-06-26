@@ -12,7 +12,7 @@ const AboutSection=()=>{
       });
   
     return(
-        <div ref={ref} className="aboutsection_container hidden">
+        <div ref={ref} className="aboutsection_container hidden" id="aboutSection">
             <div className="about_img_container">
                 <img src={big_img} alt="about-img" className="big_about_img"/>
                 <img src={mid_img} alt="about-img" className="midd_about_img" />

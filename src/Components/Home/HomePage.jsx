@@ -16,7 +16,7 @@ import "./HomePage.css";
         <HeroSection/>
         <AboutSection/>
         <HowWork/>
-        <PlaneSection/>
+        {/* <PlaneSection/> */}
         <TokenLaunch/>
         <WhyToChoose></WhyToChoose>
         <Footer/>
