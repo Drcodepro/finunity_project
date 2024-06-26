@@ -49,8 +49,10 @@
 }
 
 .WhyChooseBox .logo_container img{
-    width:4rem;
+    width:2.5rem;
     height: auto;
+    border: solid rgb(93, 93, 93) 1px;
+    border-radius: 50%;
 }
 
 

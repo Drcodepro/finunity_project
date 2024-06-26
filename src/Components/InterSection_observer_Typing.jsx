@@ -1,17 +1,16 @@
 import { useEffect, useRef } from 'react';
 
-const useIntersectionObserver_Reverse = (options) => {
+const useIntersectionObserver_typing = (options) => {
   const elementRef = useRef(null);
 
   useEffect(() => {
     const observer = new IntersectionObserver((entries) => {
       entries.forEach(entry => {
         if (entry.isIntersecting) {
-          entry.target.classList.add('animate');
+          entry.target.classList.add('typing');
         }
         else{
-            entry.target.classList.remove('animate');
-            entry.target.classList.add('hidden_reverse');
+            entry.target.classList.remove('typing');
         }
       });
     }, options);
@@ -30,4 +29,4 @@ const useIntersectionObserver_Reverse = (options) => {
   return elementRef;
 };
 
-export default useIntersectionObserver_Reverse;
+export default useIntersectionObserver_typing;

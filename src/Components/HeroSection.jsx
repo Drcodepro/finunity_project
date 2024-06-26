@@ -2,28 +2,36 @@
 import poster from "../assets/Image/Hero_Poster.webp";
 import star from "../assets/Icons/Hero_star.webp";
 import useIntersectionObserver from "./InterSection_observer";
+import useIntersectionObserver_typing from "./InterSection_observer_Typing";
 
 import "./HeroSection.css";
 
 const HeroSection=()=>{
 
+  const ref_type = useIntersectionObserver_typing({
+    threshold: 0.1
+  });
+
     const ref = useIntersectionObserver({
       threshold: 0.1
     });
+
+
 
     return(
       <div ref={ref}  className="herosection_container hidden">
 
         <div className="bluebg_container">
             <div className=" herosection_info_container">
-                <h1>Unlock Your Financial Freedom: Join Our Top-Ranked Network Today</h1>
+                <h1 ref = {ref_type}className="typing">Unlock Your Financial Freedom</h1>
                 <p>Welcome to Finunity, the cutting-edge finance and
-cryptocurrency community designed to revolutionize
-the way we interact with digital assets and financial
-services. Our mission is to create a seamless and
-inclusive platform where users can explore, invest, and
-grow their wealth through innovative financial
-solutions.</p>
+                  cryptocurrency community designed to revolutionize
+                  the way we interact with digital assets and financial
+                  services. Our mission is to create a seamless and
+                  inclusive platform where users can explore, invest, and
+                  grow their wealth through innovative financial
+                  solutions.
+                </p>
                 <div className="button_container">
                     <button>learn more</button>
                 </div>

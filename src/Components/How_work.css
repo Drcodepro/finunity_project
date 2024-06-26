@@ -25,6 +25,7 @@
 .howwork_section_container .howwork_poster_img{
    width:430px;
    align-self:center;
+   mix-blend-mode:darken;
 }
 
 
@@ -68,7 +69,7 @@
 
 .progress_container .progress_dot{
     position:absolute;
-    top: 8%;
+    top: 6%;
     left:0%;
     transform: translate(-50%, -50%);
     width: 1.5rem;

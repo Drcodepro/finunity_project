@@ -1,5 +1,5 @@
 import dot_img from "../assets/Icons/Progrss_dots.png";
-import poster_img from "../assets/Image/Howwork_img.png";
+import poster_img from "../assets/Image/Howwork_img.gif";
 import useIntersectionObserver from "./InterSection_observer";
 import "./How_work.css";
 

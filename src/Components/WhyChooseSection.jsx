@@ -2,10 +2,10 @@
 
 import "./WhyChooseSection.css";
 
-import icon1 from "../assets/Icons/WhyChoose_icons/icon1.png";
-import icon2 from "../assets/Icons/WhyChoose_icons/icon2.png";
-import icon3 from "../assets/Icons/WhyChoose_icons/icon3.png";
-import icon4 from "../assets/Icons/WhyChoose_icons/icon4.png";
+import icon1 from "../assets/Icons/WhyChoose_icons/icon1.gif";
+import icon2 from "../assets/Icons/WhyChoose_icons/icon2.gif";
+import icon3 from "../assets/Icons/WhyChoose_icons/icon3.gif";
+import icon4 from "../assets/Icons/WhyChoose_icons/icon4.gif";
 import useIntersectionObserver from "./InterSection_observer";
 
 
