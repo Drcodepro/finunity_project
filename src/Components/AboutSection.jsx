@@ -1,5 +1,8 @@
 
-import about_img from "../assets/Image/about_image.webp";
+import big_img from "../assets/Image/AboutSection_imgs/big_about_img.svg";
+import mid_img from "../assets/Image/AboutSection_imgs/midd_about_img.svg";
+import small_img from "../assets/Image/AboutSection_imgs/small_about_img.svg";
+
 import useIntersectionObserver from "./InterSection_observer";
 import "./AboutSection.css";
 
@@ -10,8 +13,11 @@ const AboutSection=()=>{
   
     return(
         <div ref={ref} className="aboutsection_container hidden">
-
-            <img src={about_img} alt="about-img" className="aboutsection_img" />
+            <div className="about_img_container">
+                <img src={big_img} alt="about-img" className="big_about_img"/>
+                <img src={mid_img} alt="about-img" className="midd_about_img" />
+                <img src={small_img} alt="about-img" className="small_about_img"/>
+            </div>
 
             <div className="aboutsection_info_container">
                 <h1>About Us</h1>
