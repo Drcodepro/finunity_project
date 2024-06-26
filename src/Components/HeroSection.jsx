@@ -1,7 +1,7 @@
 
 import poster from "../assets/Image/Hero_Poster.webp";
 import star from "../assets/Icons/Hero_star.webp";
-import bg_video from "../assets/Image/Herosection_bg_video.webm";
+import bg_video from "../assets/Image/Herosection_bg_video.gif";
 
 import useIntersectionObserver from "./InterSection_observer";
 import useIntersectionObserver_typing from "./InterSection_observer_Typing";
@@ -23,7 +23,7 @@ const HeroSection=()=>{
     return(
       <div ref={ref}  className="herosection_container hidden" id="heroSection">
        
-       <video src={bg_video} loop autoPlay className="Hero_bg_video"/>
+       <img src={bg_video}className="Hero_bg_video"/>
 
 
         <div className="bluebg_container">
