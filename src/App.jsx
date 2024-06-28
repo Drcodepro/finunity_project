@@ -25,7 +25,8 @@ function App() {
   }, []);
 
   return (<>
-      {loading ? <Loader/> : <HomePage/>}
+      {/* {loading ? <Loader/> : <HomePage/>} */}
+      <HomePage/>
   </>
 
   )
