@@ -1,5 +1,6 @@
 // import poster from "../assets/Image/Hero_Poster.webp";
-import poster from "../assets/Image/finunity_langing_poster.gif";
+// import poster from "../assets/Image/finunity_langing_poster.gif";
+import poster from "../assets/Image/Staking.png";
 
 import star from "../assets/Icons/Hero_star.webp";
 import bg_video from "../assets/Image/Herosection_bg_video.gif";
