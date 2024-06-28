@@ -99,7 +99,7 @@
     width:460px;
     height: auto;
     justify-self: end;
-    mix-blend-mode:multiply;
+    /* mix-blend-mode:multiply; */
     z-index: 3;
 }
 
