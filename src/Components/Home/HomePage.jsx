@@ -1,11 +1,11 @@
 
 import AboutSection from "../AboutSection";
+import CommingFeture from "../Features_upcomming";
 import Footer from "../Footer";
 import HeroSection from "../HeroSection";
 import HowWork from "../How_work";
 import NavBar from "../NavBar";
 import PlaneSection from "../PlaneSection";
-import TokenLaunch from "../Token_Launch_Section";
 import WhyToChoose from "../WhyChooseSection";
 import "./HomePage.css";
 
@@ -17,7 +17,7 @@ import "./HomePage.css";
         <AboutSection/>
         <HowWork/>
         {/* <PlaneSection/> */}
-        <TokenLaunch/>
+        <CommingFeture/>
         <WhyToChoose></WhyToChoose>
         <Footer/>
         </div>

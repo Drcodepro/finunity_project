@@ -96,9 +96,11 @@
   }
 
 .herosection_container .herosection_poster{
-    width:370px;
+    width:460px;
     height: auto;
     justify-self: end;
+    mix-blend-mode:multiply;
+    z-index: 3;
 }
 
 .herosection_container .herosection_star{

@@ -18,12 +18,12 @@
 
 
 .whyChoose_box_container{
-    display: flex;
-    justify-content:center;
-    align-items: center;
-    flex-wrap: wrap;
-    column-gap: 2rem;
-    row-gap: 2rem;
+    display:grid;
+    grid-template-columns: repeat(2,1fr);
+    grid-template-rows: auto;
+    justify-items: center;
+    column-gap: 0rem;
+    row-gap: 4rem;
 }
 
 
@@ -34,13 +34,26 @@
 /* box styling  */
 
 .WhyChooseBox{
-    width:40%;
-    height: 200px;
-    display: flex;
-    justify-content:start;
-    align-items: start;
+    width:80%;
+    height:300px;
+    display:grid;
+    grid-template-columns:1fr;
+    grid-template-rows:auto;
+    justify-items:center;
+    align-content: center;
     gap: 1rem;
     padding: 1rem;
+    border: 1px solid black;
+    border-radius: 0.6rem;
+    box-shadow:4px 7px 5px 1px rgba(54, 54, 54, 0.701);
+    background-color: rgb(255, 255, 255);
+    transform:scale(1);
+
+    &:hover{
+        background-color: rgb(0, 0, 0);
+        transform: scale(1.05);
+        color: rgb(255, 255, 255);
+    }
 }
 
 .WhyChooseBox .logo_container{
@@ -49,25 +62,26 @@
 }
 
 .WhyChooseBox .logo_container img{
-    width:2.5rem;
+    width:5rem;
     height: auto;
     border: solid rgb(93, 93, 93) 1px;
     border-radius: 50%;
+
 }
 
 
 .WhyChooseBox .WhyBox_info{
+    width: 100%;
     display: flex;
     flex-direction: column;
-    justify-content: start;
-    align-items:start;
+    justify-content:center;
+    align-items:center;
     gap:0.1rem;
 }
 
 
 .WhyChooseBox .WhyBox_info h1{
     font-size:1.3rem;
-    color: rgb(21, 21, 21);
     text-align: start;
     margin-bottom: 0;
     margin-top: 0;
@@ -79,14 +93,14 @@
 }
 .WhyChooseBox .WhyBox_info ul li{
     font-size: 0.9rem;
-    font-weight: 400;
+    font-weight: 300;
     width: fit-content;
     margin-top: 0;
 }
 
 
 .WhyChooseBox .WhyBox_info hr{
-    border: solid black 1px;
+    border: solid 1px;
     width: 100%;
 }
 
@@ -114,10 +128,10 @@
         justify-content:center;
         align-items: center;
         column-gap: 0rem;
-        row-gap: 1rem;
+        row-gap: 3rem;
     }
     
-    .WhyChooseBox{
+    /* .WhyChooseBox{
         width:90%;
         height:fit-content;
         display: flex;
@@ -126,15 +140,18 @@
         gap: 1rem;
         padding: 1rem;
     
-    }
-    
+    } */
 }
 
 
 @media (max-width:570px){
 
     .whyChoose_section_container .heading{
-        font-size: 1.5rem;
+        font-size:2rem;
     }
+
+    .whyChoose_section_container{
+        padding: 0 1rem;
+        }
 }
 

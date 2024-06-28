@@ -1,0 +1,25 @@
+
+.Comming_Feature_Container{
+    width: 100%;
+    margin-top: 4rem;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.Comming_Feature_Container .Feature_section_heading{
+    font-size: 2.5rem;
+    color: black;
+    font-weight:900;
+    text-align: center;
+    margin-bottom: 5rem;
+}
+
+
+@media (max-width:580px) {
+    .Comming_Feature_Container .Feature_section_heading{
+    font-size: 2rem;
+    margin-bottom: 1rem;
+    }
+}
