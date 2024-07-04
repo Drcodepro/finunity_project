@@ -20,7 +20,7 @@ const AboutSection=()=>{
             </div>
 
             <div className="aboutsection_info_container">
-                <h1>About Us</h1>
+                <h1 className="about_heading">About Us</h1>
                 <p>Finunity is more than just a platform; it's a movement towards a
 more inclusive and innovative financial future. Join us in this journey
 to transform finance and embrace the limitless possibilities of

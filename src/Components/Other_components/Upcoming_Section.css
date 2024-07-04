@@ -1,5 +1,5 @@
 
-.aboutsection_container{
+.features_container{
     width: 100%;
     height: fit-content;
     display: flex;
@@ -7,7 +7,7 @@
     align-items: center;
     box-sizing: border-box;
     margin-top:0rem;
-    margin-bottom: 0rem;
+    margin-bottom: 2rem;
     gap: 2rem;
 }
 
@@ -15,19 +15,23 @@
     flex-direction: row-reverse;
 }
 
-.aboutsection_container .TokenLaunch_img{
+.features_container .TokenLaunch_img{
     width: 400px;
     height: auto;
+    mix-blend-mode: multiply;
+    z-index:2;
 }
 
-.aboutsection_container .aboutsection_info_container{
+
+
+.features_container .features_info_container{
     width: 550px;
 }
 
 
-.aboutsection_info_container h1{
+.features_info_container h1{
     font-size: 2rem;
-    color: black;
+    color: rgb(255, 255, 255);
     font-weight:900;
 }
 
@@ -38,12 +42,12 @@
 @media (max-width:800px) {
 
 
-.aboutsection_container .TokenLaunch_img{
+.features_container .TokenLaunch_img{
     width: 300px;
     height: auto;
 }
 
-.aboutsection_container .aboutsection_info_container{
+.features_container .features_info_container{
     width:100%;
 }
 
@@ -51,9 +55,9 @@
 
 
 
-@media (max-width:650px) {
+@media (max-width:665px) {
     
-    .aboutsection_container{
+    .features_container{
         padding: 0rem 2rem 0rem  2rem;
         flex-direction: column-reverse;
         justify-content:center;
@@ -63,12 +67,12 @@
         gap: 1rem;
     }
     
-    .aboutsection_container .TokenLaunch_img{
+    .features_container .TokenLaunch_img{
         width: 300px;
         height: auto;
     }
     
-    .aboutsection_container .aboutsection_info_container{
+    .features_container .features_info_container{
         width:100%;
         text-align: center;
     }
@@ -79,22 +83,22 @@
 
     @media (max-width:570px) {
 
-        .aboutsection_container{
+        .features_container{
             padding: 0rem 1rem 0rem  1rem;
             gap: 0.5rem;
             margin-bottom: 0;
         }
 
-        .aboutsection_container .aboutsection_info_container p{
+        .features_container .features_info_container p{
             font-size: 0.8rem;
             font-weight: 500;
         }
         
-        .aboutsection_info_container h1{
+        .features_info_container h1{
             font-size: 1.5rem;
         }
 
-        .aboutsection_container .TokenLaunch_img{
+        .features_container .TokenLaunch_img{
             width:80%;
             height: auto;
         }

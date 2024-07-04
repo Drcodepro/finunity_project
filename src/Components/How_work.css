@@ -2,13 +2,16 @@
     width: 100%;
     height: fit-content;
     padding: 0 2rem;
-    margin: 4rem 0rem;
+    margin-bottom:4rem;
     box-sizing: border-box;
 }
 
 .howwork_section_container .section_heading{
-    font-size: 2.5rem;
-    color: black;
+    font-size:3rem;
+    background: radial-gradient(circle, rgb(215, 233, 255) 0%,rgb(0, 107, 178) 30%,rgb(0, 107, 178) 100%);
+    background-size: contain;
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;    
     font-weight:900;
     text-align: center;
 }
@@ -25,7 +28,6 @@
 .howwork_section_container .howwork_poster_img{
    width:430px;
    align-self:center;
-   mix-blend-mode:darken;
 }
 
 
@@ -43,7 +45,7 @@
 .progress_outer_container .progress_container{
     width: 100%;
     position: relative;
-    border-left: 1px solid black;
+    border-left: 2px solid rgb(255, 255, 255);
     padding-bottom: 2rem;
     display: flex;
     align-items: start;
@@ -58,13 +60,14 @@
     margin-top: 0;
     margin-bottom: 0;
     font-size:1.2rem;
-    color: black;
+    color: rgb(255, 255, 255);
     width: fit-content;
 }
 
 .progress_container .progress_info p{
     margin-top: 0.3rem;
     width: fit-content;
+    color: rgb(193, 193, 193);
 }
 
 .progress_container .progress_dot{

@@ -9,14 +9,14 @@ const UpcomingBox = (props) => {
 
   return (
     <>
-      <div ref={ref} className={`aboutsection_container hidden ${props.style}`}>
+      <div ref={ref} className={`features_container hidden ${props.style}`}>
         <img
           src={props.poster}
           alt="about-img"
           className="TokenLaunch_img"
         />
 
-        <div className="aboutsection_info_container">
+        <div className="features_info_container">
           <h1>{props.heading}</h1>
           <p>
             {props.content}
