@@ -11,7 +11,7 @@
 
 .Comming_Feature_Container .Feature_section_heading{
     font-size:3rem;
-    background: radial-gradient(circle, rgb(215, 233, 255) 0%,rgb(0, 107, 178) 100%,rgb(0, 107, 178)100%);
+    background: linear-gradient(308deg, rgb(173, 66, 255) 18%, rgba(128,174,255,1) 100%);
     background-size: contain;
     -webkit-background-clip: text;
     -webkit-text-fill-color: transparent;    
@@ -19,6 +19,13 @@
     text-align: center;
     margin-bottom: 5rem;
 }
+
+.Comming_Feature_Container hr {
+    width: 90%;
+    border: none; 
+    height: 1px; 
+    background: radial-gradient(circle, rgb(124, 224, 255) 18%, rgb(9, 27, 66) 100%);
+    }
 
 @media (max-width:665px) {
     .Comming_Feature_Container{

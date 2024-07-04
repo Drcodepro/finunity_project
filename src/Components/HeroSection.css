@@ -1,15 +1,14 @@
 .herosection_container{
     position: relative;
     width: 100%;
-    height:fit-content;
+    height:100vh;
     display: flex;
     justify-content:end;
     align-items:end;
-    padding-left: 2rem;
-    padding-right: 2em;
     box-sizing: border-box;
     overflow: hidden;
     margin-bottom: 2rem;
+    padding-bottom: 2rem;
 }
 
 
@@ -31,70 +30,74 @@
     padding-right: 2em;
     box-sizing: border-box;
     display: flex;
-    justify-content:start;
+    justify-content:center;
     align-items:center;
     overflow:hidden;
     top: 0;
     left: 0;
     color: white;
-    background: linear-gradient(90deg, rgba(0,35,217,1) 0%, rgba(135, 155, 255, 0.205) 100%);
+    background: linear-gradient(90deg, rgba(0, 36, 217, 0.101) 0%, rgba(135, 155, 255, 0.089) 100%);
 
 }
 
 
 .herosection_container .herosection_info_container{
-    width: 600px;
+    width:90%;
+    height: 100%;
     height: fit-content;
     z-index: 2;
+    text-align: center;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    gap: 1rem;
+    padding-bottom: 3rem;
+    box-sizing: border-box;
 }
 
-/* .herosection_info_container .button_container{
-    width: fit-content;
-    justify-self: start;
-} */
+
 
 
 .herosection_info_container .button_container button{
     padding: 0.5em 1rem;
     box-sizing: border-box;
-    background-color: rgb(123, 0, 255);
+    background: linear-gradient(308deg, rgba(145,0,255,1) 18%, rgba(128,174,255,1) 100%);
     font-size: 1rem;
-    font-weight: 700;
+    font-weight: 900;
     margin-top: 1rem;
     border-radius:8px;
-    border: 1px solid rgb(184, 184, 184);
+    border: none;
+    box-shadow:black 0 5px 5px ;
     cursor: pointer;
 
     &:hover{
-        background-color: rgb(78, 0, 162);   
+        background: linear-gradient(308deg,rgba(128,174,255,1) 18%,  rgba(145,0,255,1) 100%);
      }
 }
 
+.herosection_info_container .home_finunity_logo{
+    width: 250px;
+}
 
 .bluebg_container .herosection_info_container h1{
-    margin-bottom: 1rem;
-    font-size: 3rem;
-    font-weight: 900;
-    width: fit-content;
-    overflow: hidden; 
-    border-right: .15em solid orange; 
-    white-space:nowrap; 
+    font-size: 3.5rem;   
+    font-weight:900;
+    background: rgb(145,0,255);
+    background: linear-gradient(0deg, rgb(160, 36, 255) 18%, rgb(164, 255, 249) 100%);    background-size: contain;
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;    
+    overflow: hidden;
+    margin: 0;
+    padding: 0;
 }
 
-.typing{
-    animation: typing 3.5s steps(30, end), blink-caret .75s step-end infinite alternate;  
+.bluebg_container .herosection_info_container p{
+    font-size: 1.3rem;
+    font-weight: 400;
+    margin: 0;
+    padding: 0;
 }
-
-@keyframes typing {
-    from { width:0 }
-    to { width: 100% }
-  }
-  
-  @keyframes blink-caret {
-    from, to { border-color: transparent }
-    50% { border-color: orange; }
-
-  }
 
 .herosection_container .herosection_poster{
     width:460px;
@@ -119,35 +122,34 @@
 @media (max-width:1060px) {
     .bluebg_container .herosection_info_container h1{
         margin-bottom: 1rem;
-        font-size: 2.5rem;
+        font-size: 3rem;
         font-weight: 900;
     
     }
 }
 
 
-@media (max-width:800px) {
-    
+@media (max-width:905px) {
+    .herosection_info_container .home_finunity_logo{
+        width: 200px;
+    }
+    .herosection_container .herosection_info_container{
+        width: 100%;
+    }
+
     .bluebg_container .herosection_info_container h1{
-        margin-bottom: 1rem;
-        font-size: 1.5rem;
-        font-weight: 900;
-        
+        font-weight: 900; 
+        font-size: 2.5rem;
     }
-    .herosection_container .herosection_star{
-        position: absolute;
-        width: 15rem;
-        height: auto;
-        bottom: 70%;
-        left: 80%;
-        rotate: 10deg;
-    
+    .bluebg_container .herosection_info_container p{
+        font-size: 1rem;
+        font-weight: 400;
     }
 }
 
 
 
-@media (max-width:580px) {
+@media (max-width:700px) {
 
     .herosection_container{
         justify-content:center;
@@ -157,6 +159,7 @@
     }
 
     .bluebg_container .herosection_info_container h1{
+        font-size: 2rem;
         margin:0 auto;
     }
 
@@ -187,27 +190,34 @@
 
     }
 
-    .herosection_container .herosection_star{
-        position: absolute;
-        width: 15rem;
-        height: auto;
-        bottom: 50%;
-        left: 70%;
-        rotate: 10deg;
-    
+}
+
+
+@media (max-width:550px) {
+    .herosection_info_container .home_finunity_logo{
+        width: 150px;
     }
-    .herosection_container .herosection_poster{
-        width:200px;
-        height: auto;
-        justify-self: end;
+    .bluebg_container .herosection_info_container h1{
+        font-size:1.2rem;
+        font-weight: 900;
+        width:fit-content;
+    }
+    
+    .herosection_container .herosection_info_container{
+        font-size: 0.9rem;
+        line-height: 1.1;
+        height: fit-content;
+        text-align: center;
     }
 }
 
 
-@media (max-width:400px) {
+@media (max-width:340px) {
+    .herosection_info_container .home_finunity_logo{
+        width: 120px;
+    }
     .bluebg_container .herosection_info_container h1{
-        margin-bottom: 1rem;
-        font-size:1.2rem;
+        font-size:1rem;
         font-weight: 900;
         width:fit-content;
     }

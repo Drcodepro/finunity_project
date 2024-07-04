@@ -1,6 +1,6 @@
 import "./NavBar.css";
 import { useState } from "react";
-
+import finunity_logo from "../assets/Icons/finunity logo.png";
 
 export default function NavBar(){
     const [isvisible,setisvisible] = useState(false);
@@ -11,15 +11,20 @@ export default function NavBar(){
 
     return(
     <div className=" nav_container" id="navBar">
-        <h1 className="site_name_nav">Finunity</h1>
+        <img src={finunity_logo} alt="" className="finunity_logo" />
+
         <div  className={`${isvisible  ?  "none" :"navIsHidden "} nav_navigation_container`}>
            
                <a href="#navBar"><div className="nav_navigation flex" >Home</div></a>
 
                <a href="#aboutSection"><div className="nav_navigation flex" >About Us</div></a>
 
-                <div className="nav_navigation flex" >Buy Token</div>
-                
+               <a href="#howWorkSection"><div className="nav_navigation flex" >How Work</div></a>
+             
+               <a href="#upCommingSection"><div className="nav_navigation flex" >Up Comming</div></a>
+               
+               <a href="#whyChooseSection"><div className="nav_navigation flex" >Why To Choose</div></a>
+
                 <a href="#footer"><div className="nav_navigation"  >Contact</div></a>
                 
             </div>

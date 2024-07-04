@@ -8,7 +8,7 @@
 
 .howwork_section_container .section_heading{
     font-size:3rem;
-    background: radial-gradient(circle, rgb(215, 233, 255) 0%,rgb(0, 107, 178) 30%,rgb(0, 107, 178) 100%);
+    background: linear-gradient(308deg, rgba(145,0,255,1) 3%, rgba(128,174,255,1) 100%);
     background-size: contain;
     -webkit-background-clip: text;
     -webkit-text-fill-color: transparent;    
@@ -28,6 +28,8 @@
 .howwork_section_container .howwork_poster_img{
    width:430px;
    align-self:center;
+   animation-name: animat_img;
+   animation-duration: 1sec;
 }
 
 

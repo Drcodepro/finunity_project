@@ -26,7 +26,7 @@ const ref1 = useIntersectionObserver({
   });
 
     return(
-        <div className="whyChoose_section_container">
+        <div className="whyChoose_section_container" id="whyChooseSection">
             <h1 className="heading">Why choose Us?</h1>
 
             <div className="whyChoose_box_container">  

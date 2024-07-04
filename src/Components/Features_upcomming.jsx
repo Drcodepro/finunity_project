@@ -13,13 +13,17 @@ const DebitCardInfo = ["Debit Card Finance",Debit_Card_img, "The Fin Unity Debit
 
 export default function CommingFeture(){
     return(
-        <div className="Comming_Feature_Container">
+        <div className="Comming_Feature_Container" id="upCommingSection">
 
             <h1 className="Feature_section_heading">Upcoming Features</h1>
 
             <UpcomingBox heading = {TokenLaunchInfo[0]} poster={TokenLaunchInfo[1]} content={TokenLaunchInfo[2]} style="reverse"/>
 
+            <hr />
+
             <UpcomingBox heading = {MasterCardInfo[0]} poster={MasterCardInfo[1]} content={MasterCardInfo[2]}/>
+
+            <hr />
 
             <UpcomingBox heading = {DebitCardInfo[0]} poster={DebitCardInfo[1]} content={DebitCardInfo[2]} style="reverse"/>
 

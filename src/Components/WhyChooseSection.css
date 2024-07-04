@@ -12,7 +12,7 @@
 
 .whyChoose_section_container .heading{
     font-size:3rem;
-    background: radial-gradient(circle, rgb(215, 233, 255) 0%,rgb(0, 107, 178) 100%,rgb(0, 107, 178)100%);
+    background: linear-gradient(308deg, rgba(145,0,255,1) 1%, rgba(128,174,255,1) 100%);
     background-size: contain;
     -webkit-background-clip: text;
     -webkit-text-fill-color: transparent;    
@@ -156,7 +156,7 @@
     .whyChoose_section_container{
         padding: 0 1rem;
     }
-    
+
     .whyChoose_section_container .heading{
         font-size:2rem;
     }

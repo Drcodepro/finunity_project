@@ -1,5 +1,5 @@
 import dot_img from "../assets/Icons/Progrss_dots.png";
-import poster_img from "../assets/Image/Howwork_img.gif";
+import poster_img from "../assets/Image/Howwork_img_new.png";
 import useIntersectionObserver from "./InterSection_observer";
 import "./How_work.css";
 
@@ -13,7 +13,7 @@ export default function HowWork() {
   });
 
   return (
-    <div className="howwork_section_container">
+    <div className="howwork_section_container" id="howWorkSection">
         <h1 className="section_heading">How It Works?</h1>
       <div className=" main_progress_container">
         <img src={poster_img} alt="" ref={ref1} className="howwork_poster_img hidden" />

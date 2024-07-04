@@ -1,9 +1,9 @@
 // import poster from "../assets/Image/Hero_Poster.webp";
 // import poster from "../assets/Image/finunity_langing_poster.gif";
 import poster from "../assets/Image/Staking.png";
-
+import finu_logo from "../assets/Icons/finunity logo.png";
 import star from "../assets/Icons/Hero_star.webp";
-import bg_video from "../assets/Image/Herosection_bg_video.gif";
+import bg_video from "../assets/Image/Herosection_bg_video_new.webm";
 
 import useIntersectionObserver from "./InterSection_observer";
 import useIntersectionObserver_typing from "./InterSection_observer_Typing";
@@ -21,12 +21,14 @@ const HeroSection = () => {
 
   return (
     <div ref={ref} className="herosection_container hidden" id="heroSection">
-      <img src={bg_video} className="Hero_bg_video" />
-
+      <video src={bg_video} autoPlay muted loop className="Hero_bg_video" ></video>
+      
       <div className="bluebg_container">
         <div className=" herosection_info_container">
+
+          <img src={finu_logo} alt="" className="home_finunity_logo"/>
           <h1 ref={ref_type} className="typing">
-            Unlock Your Financial Freedom
+          Fintech + Community= Finunity
           </h1>
           <p>
             Welcome to Finunity, the cutting-edge finance and cryptocurrency
@@ -39,10 +41,9 @@ const HeroSection = () => {
             <button>learn more</button>
           </div>
         </div>
-        <img src={star} alt="star img" className="herosection_star" />
       </div>
 
-      <img src={poster} alt="poster-img" className="herosection_poster" />
+
     </div>
   );
 };

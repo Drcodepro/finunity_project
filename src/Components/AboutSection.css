@@ -103,7 +103,7 @@
 
 .aboutsection_info_container .about_heading{
     font-size:3rem;
-    background: radial-gradient(circle, rgb(215, 233, 255) 0%,rgb(0, 107, 178) 100%,rgb(0, 107, 178)100%);
+    background: linear-gradient(308deg, rgba(145,0,255,1) 18%, rgba(128,174,255,1) 100%);
     background-size: contain;
     -webkit-background-clip: text;
     -webkit-text-fill-color: transparent;    
@@ -194,7 +194,7 @@
             padding: 0rem 1rem 0rem  1rem;
             margin-bottom:4rem;
         }
-        
+
         .aboutsection_container .about_img_container{
             width: 100%;
             height: 170px;
