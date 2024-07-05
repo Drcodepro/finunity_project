@@ -40,7 +40,7 @@ export default function HowWork() {
             <div className="progress_info">
               <h1>Deposit Funds</h1>
               <p>
-              Make your initial investment using USDT TRC20.
+              Make your initial investment using USDT BEP20.
               </p>
             </div>
             <img loading="lazy" src={dot_img} alt="" className="progress_dot" />

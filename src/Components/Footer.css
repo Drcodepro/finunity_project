@@ -30,7 +30,7 @@
     width: 40%;
 }
 .Home_footer_section .Home_footer_info .footer_info{
-    font-size: 0.7rem;  
+    font-size:1rem;  
     font-weight: 400;
     color: rgb(163, 163, 163);
     margin-top: 0;
@@ -42,8 +42,8 @@
     display: flex;
     gap: 0.5rem;
     align-items: center;
-        font-family: "Yatra One", system-ui;
-        font-weight: 400;
+    font-family: "Yatra One", system-ui;
+    font-weight: 400;
 }
 
 
@@ -59,8 +59,8 @@
 
 
 .Home_footer_section h2{
-    font-size: 1rem;
-    color: rgb(38, 110, 255);
+    font-size: 1.2rem;
+    color: rgb(255, 255, 255);
     /* background: linear-gradient(90deg, rgb(169, 255, 248) 1%, rgb(174, 52, 255) 60%);
    background-size: contain;
     -webkit-background-clip: text;
@@ -70,14 +70,18 @@
 }
 
 
-.About_us p{
-    font-size: 0.7rem;  
+.Important p{
+    font-size: 1rem;  
     font-weight: 400;
     color: rgb(163, 163, 163);  
     margin-bottom: 0.3rem;
     padding-bottom: 0;
     width: fit-content;
     text-align: start;
+}
+
+.Important a{
+    text-decoration: none;
 }
 
 .contact_us{
@@ -88,23 +92,13 @@
     gap: 0.2rem;
 }
 
- .contact_us p{
-    font-size: 0.7rem;  
-    font-weight: 400;
-    color: rgb(163, 163, 163);  
-    margin-bottom: 0.3rem;
-    padding-bottom: 0;
-    width:fit-content;
-    text-align: start;
-}
-
 
 .contact_us .social_media_icons{
     display: flex;
     gap: 0.5rem;
 }
 .contact_us .social_media_icons img{
-    width: 2rem;
+    width: 3rem;
     height: auto;
 }
 
@@ -134,7 +128,22 @@ align-items:center;
 
 
 
-@media (max-width: 516px){
+@media (max-width:850px){
+
+    .Home_footer_section .Home_footer_info .footer_info{
+        font-size:0.7rem;  
+    }
+    .Important p{
+        font-size:0.7rem;  
+    }
+    .contact_us .social_media_icons img{
+        width: 2rem;
+        height: auto;
+    }
+}
+
+
+@media (max-width: 570px){
     .contact_us .social_media_icons{
         gap: 0.3rem;
     }

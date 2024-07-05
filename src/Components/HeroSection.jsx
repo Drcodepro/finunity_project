@@ -18,11 +18,11 @@ const HeroSection = () => {
   });
 
   return (
-    <div ref={ref} className="herosection_container hidden" id="heroSection">
+    <div  className="herosection_container" id="heroSection">
       <video src={bg_video} autoPlay muted loop className="Hero_bg_video" ></video>
       
       <div className="bluebg_container">
-        <div className=" herosection_info_container">
+        <div ref={ref} className=" herosection_info_container hidden">
 
           <img loading="lazy" src={finu_logo} alt="" className="home_finunity_logo"/>
           <h1 ref={ref_type} className="typing">
