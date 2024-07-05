@@ -6,6 +6,8 @@ import icon1 from "../assets/Icons/WhyChoose_icons/icon1.gif";
 import icon2 from "../assets/Icons/WhyChoose_icons/icon2.gif";
 import icon3 from "../assets/Icons/WhyChoose_icons/icon3.gif";
 import icon4 from "../assets/Icons/WhyChoose_icons/icon4.gif";
+import icon5 from "../assets/Icons/WhyChoose_icons/icon5.gif";
+
 import useIntersectionObserver from "./InterSection_observer";
 
 
@@ -115,7 +117,7 @@ const ref1 = useIntersectionObserver({
 
                 <div ref={ref5} className="WhyChooseBox hidden">
                     <div className="logo_container">
-                        <img src={icon4} alt="logo" />
+                        <img src={icon5} alt="logo" />
                     </div>
         
                     <div className="WhyBox_info">
