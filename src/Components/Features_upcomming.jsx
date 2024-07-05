@@ -1,7 +1,7 @@
 import UpcomingBox from "./Other_components/Upcoming_Section";
 import Token_Launch_img from "../assets/Image/BLUE_TOKENl.png";
-import Master_Card_img from "../assets/Image/master_card_posterr.svg";
-import Debit_Card_img from "../assets/Image/debit_card_poster.svg";
+import Master_Card_img from "../assets/Image/master_card_posterr.png";
+import Debit_Card_img from "../assets/Image/debit_card_poster.png";
 
 import "./Features_upcomming.css";
 
