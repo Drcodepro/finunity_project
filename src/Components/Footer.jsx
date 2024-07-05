@@ -16,14 +16,13 @@ export default function Footer() {
           <div className="Home_Footer_logo_container">
            <h1>Finunity</h1>
           </div>
-          <div className="footer_info">Lorem ipsum, dolor sit amet consectetur adipisicing elit. Dolor minima, maxime, laboreon molestias facilis ex eius.</div>
+          <div className="footer_info">FINUNITY IS MORE THAN JUST A PLATFORM; IT'S A MOVEMENT TOWARDS A MORE INCLUSIVE AND INNOVATIVE FINANCIAL FUTURE.</div>
         </div>
 
         <div className="About_us">
-          <h2>About Us</h2>
-          <p>Finunity</p>
+          <h2>Important</h2>
+          <p>About Us</p>
           <p>Careers</p>
-          <p>Contact us</p>
         </div>
         
         <div className="contact_us">
