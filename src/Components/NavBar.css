@@ -34,6 +34,13 @@
     gap: 2rem;
 }
 
+.nav_navigation_container hr{
+    display: none;
+    width: 100%;
+    border: none; 
+    height: 0.04rem; 
+    background: radial-gradient(circle, rgb(124, 224, 255) 18%, rgb(9, 27, 66) 100%);
+}
 
 .nav_navigation {
     cursor: pointer; 
@@ -105,9 +112,6 @@ display: none;
 /* mobile responsive  */
 
 @media (max-width:690px) {
-    .site_name_nav{
-        font-size: 1.5rem;
-    }
     .nav_container{
         padding:0.5rem 2rem;
     }
@@ -116,12 +120,14 @@ display: none;
         text-align: center;
        
     }
-    .nav_container .toggle_nav_button{
-        display: block;
-        
+
+    .nav_navigation_container hr{
+        display:block;
     }
 
-  
+    .nav_container .toggle_nav_button{
+        display: block;  
+    }
 
     .nav_container .buy_button{
         display: none;
@@ -137,14 +143,20 @@ display: none;
         top:100%;
         right:0%;
         height: fit-content;
-        width:fit-content;
-        padding-left: 2rem;
+        width:90%;
+        padding-left: 0.5rem;
         padding-right:2rem;
+        padding-top: 0.5rem;
+        padding-bottom:0.5rem;
+        box-sizing: border-box;
         flex-direction: column;
-        align-items: center;
+        align-items:start;
         gap: 0.3rem;
         background-color: rgba(0, 0, 0, 0.816);
-        border: solid 1px rgb(255, 106, 0);
+        border: solid 2px rgba(52, 123, 255, 0.612);
+        border-top-left-radius: 1rem;
+        border-bottom-left-radius: 1rem;
+        border-bottom-right-radius: 1rem;
         z-index: 99;
     }  
 
@@ -171,7 +183,9 @@ display: none;
 
 
 @media (max-width:350px) {
-
+    .nav_container img{
+        width:3rem;
+    }
     .nav_container .buy_button{
         font-size: 0.4rem;
         font-weight: 600;

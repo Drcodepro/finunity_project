@@ -17,14 +17,24 @@ export default function NavBar(){
            
                <a href="#navBar"><div className="nav_navigation flex" >Home</div></a>
 
+               <hr />
+
                <a href="#aboutSection"><div className="nav_navigation flex" >About Us</div></a>
+
+               <hr />
 
                <a href="#howWorkSection"><div className="nav_navigation flex" >How Work</div></a>
              
+               <hr />
+
                <a href="#upCommingSection"><div className="nav_navigation flex" >Up Comming</div></a>
                
+               <hr />
+
                <a href="#whyChooseSection"><div className="nav_navigation flex" >Why To Choose</div></a>
 
+               <hr />
+               
                 <a href="#footer"><div className="nav_navigation"  >Contact</div></a>
                 
             </div>

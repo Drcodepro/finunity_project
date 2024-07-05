@@ -37,13 +37,11 @@ const ref1 = useIntersectionObserver({
                     </div>
         
                     <div className="WhyBox_info">
-                        <h1>Increased Earnings</h1>
+                        <h1>Community Support</h1>
                         <hr />
                         <div className="benifit_info">
                             <ul>
-                                <li>Boost your income by re-topping up your investment.</li>
-                                <li>Flexibility to re-topup at any time to maximize returns.</li>
-                                <li>Enhance your earnings potential with compounding growth.</li>
+                                <li>ENGAGE WITH A SUPPORTIVE COMMUNITY AND ACCESS EDUCATIONAL RESOURCES.</li>
                             </ul>
 
                         </div>
@@ -58,13 +56,12 @@ const ref1 = useIntersectionObserver({
                     </div>
         
                     <div className="WhyBox_info">
-                        <h1>Transparent & Predictable Income</h1>
+                        <h1>Consistent Returns</h1>
                         <hr />
 
                         <div className="benifit_info">
                             <ul>
-                                <li>Provides a steady and predictable source of income.</li>
-                                <li>Daily credited ROI can be withdrawn, reinvested, or used for other purposes.</li>
+                                <li> DAILY ROI ENSURES STEADY INCOME.</li>
                             </ul>
 
                         </div>
@@ -79,14 +76,11 @@ const ref1 = useIntersectionObserver({
                     </div>
         
                     <div className="WhyBox_info">
-                        <h1>Daily Rewards and Awards</h1>
+                        <h1> Attractive Rewards</h1>
                         <hr />
                         <div className="benifit_info">
                             <ul>
-                                <li>Direct Business $5000: Earn $10 daily.</li>
-                                <li>Direct Business $10000: Earn $25 daily.</li>
-                                <li>Direct Business $25000: Earn $50 daily.</li>
-                                <li>Direct Business $50000: Earn $100 daily.</li>
+                                <li>EARN ADDITIONAL INCOME THROUGH DIRECT BUSINESS MILESTONES AND RE-TOPUP BONUSES.</li>
                             </ul>
 
                         </div>
@@ -101,12 +95,12 @@ const ref1 = useIntersectionObserver({
                     </div>
         
                     <div className="WhyBox_info">
-                        <h1>Secure Investment</h1>
+                        <h1>Secure Transactions</h1>
                         <hr />
                         
                         <div className="benifit_info">
                             <ul>
-                                <li>Replacing a maintains the amount of lines. When replacing a selection. help agencies to define their new business objectives and then create.</li>
+                                <li> SAFE AND RELIABLE DEPOSIT AND WITHDRAWAL PROCESSES.</li>
                             </ul>
 
                         </div>
