@@ -1,7 +1,7 @@
 
-import big_img from "../assets/Image/AboutSection_imgs/big_about_img.svg";
-import mid_img from "../assets/Image/AboutSection_imgs/midd_about_img.svg";
-import small_img from "../assets/Image/AboutSection_imgs/small_about_img.svg";
+import big_img from "../assets/Image/AboutSection_imgs/big_about_img.png";
+import mid_img from "../assets/Image/AboutSection_imgs/midd_about_img.png";
+import small_img from "../assets/Image/AboutSection_imgs/small_about_img.png";
 
 import useIntersectionObserver from "./InterSection_observer";
 import "./AboutSection.css";
