@@ -1,11 +1,18 @@
 import "./NavBar.css";
-import { useState } from "react";
+import { useState ,useEffect} from "react";
 import finunity_logo from "../assets/Icons/finunity logo.png";
 
 export default function NavBar(){
     const [isvisible,setisvisible] = useState(false);
+    useEffect(() => {
+        const navbar = document.querySelector(".nav_navigation_container")
+        navbar.classList.add("animateNav");
+
+ },[isvisible]);
+
     function handleIsVisible(){
         setisvisible(!isvisible);
+
     }
 
 
@@ -34,7 +41,7 @@ export default function NavBar(){
                <a href="#whyChooseSection"><div className="nav_navigation flex" >Why To Choose</div></a>
 
                <hr />
-               
+
                 <a href="#footer"><div className="nav_navigation"  >Contact</div></a>
                 
             </div>

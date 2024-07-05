@@ -13,7 +13,7 @@ const useIntersectionObserver_typing = (options) => {
             entry.target.classList.remove('typing');
         }
       });
-    }, options);
+    }, [options]);
 
     if (elementRef.current) {
       observer.observe(elementRef.current);

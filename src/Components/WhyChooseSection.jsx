@@ -25,6 +25,10 @@ const ref1 = useIntersectionObserver({
     threshold: 0.1
   });
 
+  const ref5 = useIntersectionObserver({
+    threshold: 0.1
+  });
+
     return(
         <div className="whyChoose_section_container" id="whyChooseSection">
             <h1 className="heading">Why choose Us?</h1>
@@ -108,6 +112,25 @@ const ref1 = useIntersectionObserver({
         
                 </div>
 
+
+                <div ref={ref5} className="WhyChooseBox hidden">
+                    <div className="logo_container">
+                        <img src={icon4} alt="logo" />
+                    </div>
+        
+                    <div className="WhyBox_info">
+                        <h1>Flexible Investment Options</h1>
+                        <hr />
+                        
+                        <div className="benifit_info">
+                            <ul>
+                                <li>CHOOSE PACKAGES THAT SUIT YOUR FINANCIAL GOALS.</li>
+                            </ul>
+
+                        </div>
+                    </div>
+        
+                </div>
                 
             </div>
 
