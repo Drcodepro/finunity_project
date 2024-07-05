@@ -82,10 +82,8 @@
 .bluebg_container .herosection_info_container h1{
     font-size: 3.5rem;   
     font-weight:900;
-    background: rgb(145,0,255);
-    background: linear-gradient(0deg, rgb(160, 36, 255) 18%, rgb(164, 255, 249) 100%);    background-size: contain;
-    -webkit-background-clip: text;
-    -webkit-text-fill-color: transparent;    
+    color: white;   
+    text-shadow:0 4px 5px black;
     overflow: hidden;
     margin: 0;
     padding: 0;

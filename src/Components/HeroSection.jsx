@@ -26,7 +26,7 @@ const HeroSection = () => {
 
           <img loading="lazy" src={finu_logo} alt="" className="home_finunity_logo"/>
           <h1 ref={ref_type} className="typing">
-          Fintech + Community= Finunity
+          Fintech + Community = Finunity
           </h1>
           <p>
             Welcome to Finunity, the cutting-edge finance and cryptocurrency
