@@ -60,10 +60,11 @@
 
 .Home_footer_section h2{
     font-size: 1rem;
-    background: linear-gradient(90deg, rgb(0, 72, 255) 1%, rgb(45, 122, 255) 60%);
+    color: rgb(38, 110, 255);
+    /* background: linear-gradient(90deg, rgb(169, 255, 248) 1%, rgb(174, 52, 255) 60%);
    background-size: contain;
     -webkit-background-clip: text;
-    -webkit-text-fill-color: transparent;
+    -webkit-text-fill-color: transparent; */
     margin-bottom:0.6rem;
     width: fit-content;
 }
@@ -126,7 +127,9 @@ align-items:center;
 
 .Home_footer_section hr{
     width:100%;
-    border-color: rgba(0, 72, 255, 0.765);
+    border: none; 
+    height:0.05rem; 
+    background: radial-gradient(circle, rgb(52, 99, 255) 18%, rgb(9, 27, 66) 100%);
 }
 
 

@@ -1,4 +1,6 @@
 import "./Footer.css";
+
+import fin_logo from '../assets/Icons/finunity logo.png';
 import facebook_icon from '../assets/Icons/socialMedia_icon/insta_icon_blue.png';
 import insta_icon from '../assets/Icons/socialMedia_icon/insta_icon_blue.png';
 import twitter_icon from '../assets/Icons/socialMedia_icon/tweet_icon_blue.png';
@@ -14,6 +16,7 @@ export default function Footer() {
 
         <div className="Home_footer_info">
           <div className="Home_Footer_logo_container">
+           {/* <img src={fin_logo}  loading="lazy" alt="" /> */}
            <h1>Finunity</h1>
           </div>
           <div className="footer_info">FINUNITY IS MORE THAN JUST A PLATFORM; IT'S A MOVEMENT TOWARDS A MORE INCLUSIVE AND INNOVATIVE FINANCIAL FUTURE.</div>
