@@ -24,7 +24,7 @@ const HeroSection = () => {
       <div className="bluebg_container">
         <div className=" herosection_info_container">
 
-          <img src={finu_logo} alt="" className="home_finunity_logo"/>
+          <img loading="lazy" src={finu_logo} alt="" className="home_finunity_logo"/>
           <h1 ref={ref_type} className="typing">
           Fintech + Community= Finunity
           </h1>

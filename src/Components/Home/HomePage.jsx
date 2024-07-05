@@ -12,7 +12,7 @@ import "./HomePage.css";
  const HomePage=()=>{
     return(
         <div className="Home_container">
-            <NavBar/>
+        <NavBar/>
         <HeroSection/>
         <AboutSection/>
         <HowWork/>

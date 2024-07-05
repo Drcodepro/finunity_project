@@ -16,7 +16,7 @@ export default function HowWork() {
     <div className="howwork_section_container" id="howWorkSection">
         <h1 className="section_heading">How It Works?</h1>
       <div className=" main_progress_container">
-        <img src={poster_img} alt="" ref={ref1} className="howwork_poster_img hidden" />
+        <img loading="lazy" src={poster_img} alt="" ref={ref1} className="howwork_poster_img hidden" />
 
         <div ref={ref} className="progress_outer_container hidden">
           <div className="progress_container">
@@ -25,7 +25,7 @@ export default function HowWork() {
               <p>
               Visit our website and sign up for an account.Provide basic information to create your profile.              </p>
             </div>
-            <img src={dot_img} alt="" className="progress_dot" />
+            <img loading="lazy" src={dot_img} alt="" className="progress_dot" />
           </div>
 
           <div className="progress_container">
@@ -33,7 +33,7 @@ export default function HowWork() {
               <h1>Choose a Package</h1>
               <p>Select from our range of packages: $50, $100, $250, $500, $1000 </p>
             </div>
-            <img src={dot_img} alt="" className="progress_dot" />
+            <img loading="lazy" src={dot_img} alt="" className="progress_dot" />
           </div>
 
           <div className="progress_container">
@@ -43,7 +43,7 @@ export default function HowWork() {
               Make your initial investment using USDT TRC20.
               </p>
             </div>
-            <img src={dot_img} alt="" className="progress_dot" />
+            <img loading="lazy" src={dot_img} alt="" className="progress_dot" />
           </div>
 
           <div className="progress_container last_progress_container">
@@ -53,7 +53,7 @@ export default function HowWork() {
               Begin earning daily ROI of 1%.
               </p>
             </div>
-            <img src={dot_img} alt="" className="progress_dot" />
+            <img loading="lazy" src={dot_img} alt="" className="progress_dot" />
           </div>
         </div>
       </div>

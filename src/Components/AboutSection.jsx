@@ -14,9 +14,9 @@ const AboutSection=()=>{
     return(
         <div ref={ref} className="aboutsection_container hidden" id="aboutSection">
             <div className="about_img_container">
-                <img src={big_img} alt="about-img" className="big_about_img"/>
-                <img src={mid_img} alt="about-img" className="midd_about_img" />
-                <img src={small_img} alt="about-img" className="small_about_img"/>
+                <img loading="lazy" src={big_img} alt="about-img" className="big_about_img"/>
+                <img loading="lazy" src={mid_img} alt="about-img" className="midd_about_img" />
+                <img loading="lazy" src={small_img} alt="about-img" className="small_about_img"/>
             </div>
 
             <div className="aboutsection_info_container">

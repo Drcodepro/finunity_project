@@ -18,7 +18,7 @@ export default function NavBar(){
 
     return(
     <div className=" nav_container" id="navBar">
-        <img src={finunity_logo} alt="" className="finunity_logo" />
+        <img loading="lazy" src={finunity_logo} alt="" className="finunity_logo" />
 
         <div  className={`${isvisible  ?  "none" :"navIsHidden "} nav_navigation_container`}>
            

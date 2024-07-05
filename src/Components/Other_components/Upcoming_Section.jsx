@@ -10,7 +10,7 @@ const UpcomingBox = (props) => {
   return (
     <>
       <div ref={ref} className={`features_container hidden ${props.style}`}>
-        <img
+        <img loading="lazy"
           src={props.poster}
           alt="about-img"
           className="TokenLaunch_img"

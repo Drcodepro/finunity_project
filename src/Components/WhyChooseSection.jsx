@@ -39,7 +39,7 @@ const ref1 = useIntersectionObserver({
 
                 <div ref={ref1} className="WhyChooseBox hidden">
                     <div className="logo_container">
-                        <img src={icon1} alt="logo" />
+                        <img loading="lazy" src={icon1} alt="logo" />
                     </div>
         
                     <div className="WhyBox_info">
@@ -58,7 +58,7 @@ const ref1 = useIntersectionObserver({
 
                 <div ref={ref2} className="WhyChooseBox hidden">
                     <div className="logo_container">
-                        <img src={icon2} alt="logo" />
+                        <img loading="lazy" src={icon2} alt="logo" />
                     </div>
         
                     <div className="WhyBox_info">
@@ -78,7 +78,7 @@ const ref1 = useIntersectionObserver({
 
                 <div ref={ref3} className="WhyChooseBox hidden">
                     <div className="logo_container">
-                        <img src={icon3} alt="logo" />
+                        <img loading="lazy" src={icon3} alt="logo" />
                     </div>
         
                     <div className="WhyBox_info">
@@ -97,7 +97,7 @@ const ref1 = useIntersectionObserver({
 
                 <div ref={ref4} className="WhyChooseBox hidden">
                     <div className="logo_container">
-                        <img src={icon4} alt="logo" />
+                        <img loading="lazy" src={icon4} alt="logo" />
                     </div>
         
                     <div className="WhyBox_info">
@@ -117,7 +117,7 @@ const ref1 = useIntersectionObserver({
 
                 <div ref={ref5} className="WhyChooseBox hidden">
                     <div className="logo_container">
-                        <img src={icon5} alt="logo" />
+                        <img loading="lazy" src={icon5} alt="logo" />
                     </div>
         
                     <div className="WhyBox_info">
