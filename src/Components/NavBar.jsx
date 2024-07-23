@@ -43,12 +43,25 @@ export default function NavBar(){
                <hr />
 
                 <a href="#footer"><div className="nav_navigation"  >Contact</div></a>
+
+                
                 
             </div>
 
-            <div className="buy_button"> 
-                <button>Sign In</button>
+            <div className="Nav_Button_container">
+                
+                <a href="https://finunity.world/MemberPanel/Login.aspx"><div className="signIn_button"> 
+                    <button>Sign In</button>
+                </div>
+                </a>
+            
+               <a href="https://finunity.world/Member-Registration.aspx">
+               <div className="signUp_button"> 
+                    <button>Sign Up</button>
+                </div></a> 
             </div>
+           
+
 
             <div className= "toggle_nav_button" onClick={handleIsVisible}>
                 <i className="fa-solid fa-bars fa-xl"></i>        

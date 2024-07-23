@@ -54,7 +54,12 @@
     height: auto;
 }
 
-.nav_container .buy_button button{
+.Nav_Button_container{
+display: flex;
+gap: 1rem;
+}
+
+.nav_container .signIn_button button , .signUp_button button{
     background: linear-gradient(308deg, rgba(145,0,255,1) 18%, rgba(128,174,255,1) 100%);
     color: white;
     font-weight: 700;
@@ -91,7 +96,7 @@ display: none;
         font-size: 0.8rem;
     }
 
-    .nav_container .buy_button{
+    .nav_container .signIn_button{
         padding-left: 0.5rem;
         padding-right: 0.5rem;
         font-size: 0.8rem;
@@ -120,6 +125,10 @@ display: none;
         text-align: center;
        
     }
+    .Nav_Button_container{
+        display: flex;
+        gap: 0.5rem;
+        }
 
     .nav_navigation_container hr{
         display:block;
@@ -129,9 +138,9 @@ display: none;
         display: block;  
     }
 
-    .nav_container .buy_button{
+    /* .nav_container .signIn_button{
         display: none;
-    }
+    } */
 
     .navIsHidden{
         display: none;
@@ -172,7 +181,7 @@ display: none;
         height: auto;
     }
 
-    .nav_container .buy_button{
+    .nav_container .signIn_button{
         padding-left: 0.3rem;
         padding-right: 0.3rem;
         padding-top: 0.1rem;
@@ -186,7 +195,7 @@ display: none;
     .nav_container img{
         width:3rem;
     }
-    .nav_container .buy_button{
+    .nav_container .signIn_button{
         font-size: 0.4rem;
         font-weight: 600;
         padding-left: 0.2rem;

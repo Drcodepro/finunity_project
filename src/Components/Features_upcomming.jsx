@@ -43,7 +43,6 @@ export default function CommingFeture(){
         threshold: 0.1,
       });
 
-
     return(
         <div className="Comming_Feature_Container" id="upCommingSection">
 
