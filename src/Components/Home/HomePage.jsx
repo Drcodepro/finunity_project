@@ -5,7 +5,7 @@ import Footer from "../Footer";
 import HeroSection from "../HeroSection";
 import HowWork from "../How_work";
 import NavBar from "../NavBar";
-import PlaneSection from "../PlaneSection";
+// import PlaneSection from "../PlaneSection";
 import WhyToChoose from "../WhyChooseSection";
 import "./HomePage.css";
 

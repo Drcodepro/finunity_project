@@ -1,4 +1,123 @@
 
+
+
+/* comming soon token style  */
+
+
+.Token_soon_container{
+    width: 100%;
+    height: fit-content;
+    display: flex;
+    flex-direction: row-reverse;
+    justify-content:space-evenly;
+    align-items: center;
+    box-sizing: border-box;
+    margin-top:0rem;
+    margin-bottom: 2rem;
+    gap: 2rem;
+}
+
+.Token_soon_container .Token_soon_info_container{
+    width: 550px;
+}
+.tier_logo_container{
+
+    display: flex;
+    flex-direction: column;
+    row-gap: 1rem;
+}
+
+.tier1_container , .tier2_container{
+display: flex;
+gap: 1rem;
+}
+
+.tier1_container img , .tier2_container img{
+width: 2rem;
+height: auto;
+}
+
+
+
+@media (max-width:800px) {
+    .Token_soon_container .TokenLaunch_img{
+        width: 300px;
+        height: auto;
+    }
+    
+    .Token_soon_container .Token_soon_info_container{
+        width:100%;
+        text-align: center;
+    }
+    .tier_logo_container{
+
+        display: flex;
+        flex-direction: column;
+        row-gap: 0rem;
+    }
+}
+
+
+@media (max-width:750px) {
+    .Token_soon_container{
+        flex-direction: column-reverse;
+        gap: 1rem;
+    }
+
+    .tier_logo_container{
+        justify-content: center;
+        align-items: center;
+    }
+}
+
+@media (max-width:665px) {
+    .Token_soon_container{
+        justify-content:center;
+        padding: 0rem 2rem 0rem  2rem;
+        margin-top: 1rem;
+        margin-bottom: 2rem;
+    }
+
+    .Token_soon_container .TokenLaunch_img{
+        width: 300px;
+        height: auto;
+    }
+    .Token_soon_container .Token_soon_info_container{
+        justify-content: center;
+        align-items: center;
+    }
+}
+
+
+
+@media (max-width:570px) {
+
+    .Token_soon_container{
+        padding: 0rem 1rem 0rem  1rem;
+        gap: 0.5rem;
+        margin-bottom: 0;
+    }
+
+    .Token_soon_container .Token_soon_info_container p{
+        font-size: 0.8rem;
+        font-weight: 500;
+    }
+    
+    .Token_soon_info_container h1{
+        font-size: 1.5rem;
+    }
+
+    .Token_soon_container .TokenLaunch_img{
+        width:80%;
+        height: auto;
+    }
+}
+/* comming soon token style end */
+
+
+
+
+
 .Comming_Feature_Container{
     width: 100%;
     display: flex;
